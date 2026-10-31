@@ -1,0 +1,19 @@
+# Recreate this project's software environment with:
+#   conda env create -f environment.yml
+#   conda activate stat6289
+name: stat6289
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - xarray
+  - netcdf4
+  - h5py
+  - pyproj
+  - geopandas
+  - matplotlib
+  - requests
+  - earthaccess
+  - jupyterlab

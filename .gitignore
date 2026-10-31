@@ -1,0 +1,19 @@
+# Temporary downloads (rebuilt by the scripts; never committed)
+data/downloads/
+
+# Credentials and local login config — NEVER commit
+.dodsrc
+.netrc
+_netrc
+.env
+*.token
+
+# Python / Jupyter clutter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Archives and OS files
+*.zip
+.DS_Store
+Thumbs.db
