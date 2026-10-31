@@ -1,0 +1,30 @@
+station_id,name,state,lat,lon,elev_m,network,category,inside_dc_polygon,dc_test,prcp_first_year,prcp_last_year,has_prcp_1996_2025
+USW00093721,BALTIMORE-WASHINGTON INTL AP,MD,39.1733,-76.6842,42.1,First-order / airport (WBAN),airport_reference_outside_DC,False,DC polygon (US Census 2023),1939,2026,True
+USW00013743,WASHINGTON REAGAN NATL AP,VA,38.8472,-77.0344,4.0,First-order / airport (WBAN),airport_reference_outside_DC,False,DC polygon (US Census 2023),1941,2026,True
+USW00093738,WASHINGTON DULLES INTL AP,VA,38.9347,-77.4472,89.6,First-order / airport (WBAN),airport_reference_outside_DC,False,DC polygon (US Census 2023),1960,2026,True
+USW00093725,WASHINGTON,DC,38.9053,-77.0525,34.1,First-order / airport (WBAN),in_DC,True,DC polygon (US Census 2023),1852,1965,False
+USC00189674,GEORGETOWN,DC,38.9072,-77.0522,18.3,NWS Cooperative Observer (COOP),in_DC,True,DC polygon (US Census 2023),1860,1866,False
+USC00181135,BRIGHTWOOD DC,MD,38.95,-77.0167,78.9,NWS Cooperative Observer (COOP),in_DC,True,DC polygon (US Census 2023),1944,1956,False
+USW00013710,WASHINGTON DC BOLLING FLD AFB,MD,38.8333,-77.0167,18.0,First-order / airport (WBAN),in_DC,True,DC polygon (US Census 2023),1947,1956,False
+USC00182325,DALECARLIA RSVR,MD,38.9386,-77.1133,45.7,NWS Cooperative Observer (COOP),in_DC,True,DC polygon (US Census 2023),1948,2026,True
+USC00186350,NATL ARBORETUM DC,MD,38.9133,-76.97,15.2,NWS Cooperative Observer (COOP),in_DC,True,DC polygon (US Census 2023),1948,2026,True
+USC00189035,US SOLDIERS HOME DC,MD,38.9333,-77.0167,70.1,NWS Cooperative Observer (COOP),in_DC,True,DC polygon (US Census 2023),1948,1977,False
+US1DCDC0001,WASHINGTON 3.0 ENE,DC,38.9171,-76.9626,17.1,CoCoRaHS volunteer,in_DC,True,DC polygon (US Census 2023),2006,2006,True
+US1DCDC0002,WASHINGTON 3.7 NNW,DC,38.9574,-77.0337,85.0,CoCoRaHS volunteer,in_DC,True,DC polygon (US Census 2023),2006,2007,True
+US1DCDC0003,WASHINGTON 5.0 WNW,DC,38.9377,-77.0991,91.1,CoCoRaHS volunteer,in_DC,True,DC polygon (US Census 2023),2006,2006,True
+US1DCDC0006,WASHINGTON 2.0 ESE,DC,38.8928,-76.9834,21.9,CoCoRaHS volunteer,in_DC,True,DC polygon (US Census 2023),2007,2007,True
+US1DCDC0007,WASHINGTON 1.2 SE,DC,38.8943,-76.9982,25.0,CoCoRaHS volunteer,in_DC,True,DC polygon (US Census 2023),2007,2007,True
+US1DCDC0008,WASHINGTON 2.0 ESE,DC,38.8901,-76.9854,27.1,CoCoRaHS volunteer,in_DC,True,DC polygon (US Census 2023),2007,2008,True
+US1DCDC0009,WASHINGTON 2.0 SSW,DC,38.8766,-77.0224,3.0,CoCoRaHS volunteer,in_DC,True,DC polygon (US Census 2023),2008,2026,True
+US1DCDC0010,WASHINGTON 5.0 N,DC,38.9773,-77.0245,88.1,CoCoRaHS volunteer,in_DC,True,DC polygon (US Census 2023),2008,2018,True
+US1DCDC0011,WASHINGTON 4.0 WNW,DC,38.9303,-77.0831,81.4,CoCoRaHS volunteer,in_DC,True,DC polygon (US Census 2023),2008,2010,True
+US1DCDC0014,WASHINGTON 5.1 NW,DC,38.9581,-77.0817,106.4,CoCoRaHS volunteer,in_DC,True,DC polygon (US Census 2023),2011,2026,True
+US1DCDC0015,WASHINGTON 1.9 WNW,DC,38.9203,-77.0456,50.6,CoCoRaHS volunteer,in_DC,True,DC polygon (US Census 2023),2011,2020,True
+US1DCDC0019,THE WHITE HOUSE,DC,38.8958,-77.037,9.1,CoCoRaHS volunteer,in_DC,True,DC polygon (US Census 2023),2015,2018,True
+US1DCDC0026,WASHINGTON 2.6 NE,DC,38.9327,-76.9835,43.9,CoCoRaHS volunteer,in_DC,True,DC polygon (US Census 2023),2018,2026,True
+US1DCDC0034,WASHINGTON 1.9 NW,DC,38.9258,-77.0408,57.3,CoCoRaHS volunteer,in_DC,True,DC polygon (US Census 2023),2018,2023,True
+US1DCDC0031,WASHINGTON 3.1 NNE,DC,38.9436,-76.988,36.9,CoCoRaHS volunteer,in_DC,True,DC polygon (US Census 2023),2020,2026,True
+US1DCDC0040,WASHINGTON 2.2 ESE,DC,38.8965,-76.9769,8.2,CoCoRaHS volunteer,in_DC,True,DC polygon (US Census 2023),2022,2026,True
+US1DCDC0043,WASHINGTON 0.9 ESE,DC,38.9023,-77.0002,12.8,CoCoRaHS volunteer,in_DC,True,DC polygon (US Census 2023),2024,2026,True
+US1DCDC0044,WASHINGTON 2.4 N,DC,38.9391,-77.0101,65.5,CoCoRaHS volunteer,in_DC,True,DC polygon (US Census 2023),2025,2026,True
+US1DCDC0045,WASHINGTON 2.0 NNW,DC,38.9338,-77.0241,57.9,CoCoRaHS volunteer,in_DC,True,DC polygon (US Census 2023),2025,2026,True

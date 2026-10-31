@@ -1,0 +1,7 @@
+event_id,date_est,role,status,file
+E115,2022-08-04,event,downloaded,daymet_v4_na_prcp_2022_2022-08-04_2022-08-06_dc.nc4
+E115,2022-08-05,event,downloaded,daymet_v4_na_prcp_2022_2022-08-04_2022-08-06_dc.nc4
+E115,2022-08-06,pad_after,downloaded,daymet_v4_na_prcp_2022_2022-08-04_2022-08-06_dc.nc4
+E116,2022-08-04,pad_before,downloaded,daymet_v4_na_prcp_2022_2022-08-04_2022-08-06_dc.nc4
+E116,2022-08-05,event,downloaded,daymet_v4_na_prcp_2022_2022-08-04_2022-08-06_dc.nc4
+E116,2022-08-06,pad_after,downloaded,daymet_v4_na_prcp_2022_2022-08-04_2022-08-06_dc.nc4

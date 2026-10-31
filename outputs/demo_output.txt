@@ -1,0 +1,320 @@
+======================================================================
+1. list_contents()
+======================================================================
+File: C:\stat6289\outputs\dc_flood_db.h5
+Events: 125  (1996-01-19T11:00-0500 .. 2025-07-19T18:34-0500)
+
+Sources:
+  source                type                         variable            units                                            resolution  events               date_range
+  daymet      gridded raster prcp (daily total precipitation)           mm/day 1 km x 1 km (no resampling or reprojection performed)     125 1996-01-18 .. 2025-07-20
+stations station time series                             PRCP mm (daily total)                                                 point     125                         
+
+Stations:
+ station_id                         name                     category                         network     lat      lon            stored_period  days_with_data  days_stored
+US1DCDC0001           WASHINGTON 3.0 ENE                        in_DC              CoCoRaHS volunteer 38.9171 -76.9626 2006-01-01 .. 2006-12-31             122          365
+US1DCDC0002           WASHINGTON 3.7 NNW                        in_DC              CoCoRaHS volunteer 38.9574 -77.0337 2006-01-01 .. 2007-12-31             107          730
+US1DCDC0003           WASHINGTON 5.0 WNW                        in_DC              CoCoRaHS volunteer 38.9377 -77.0991 2006-01-01 .. 2006-12-31             111          365
+US1DCDC0006           WASHINGTON 2.0 ESE                        in_DC              CoCoRaHS volunteer 38.8928 -76.9834 2007-01-01 .. 2007-12-31             217          365
+US1DCDC0007            WASHINGTON 1.2 SE                        in_DC              CoCoRaHS volunteer 38.8943 -76.9982 2007-01-01 .. 2007-12-31             143          365
+US1DCDC0008           WASHINGTON 2.0 ESE                        in_DC              CoCoRaHS volunteer 38.8901 -76.9854 2007-01-01 .. 2008-12-31             172          731
+US1DCDC0009           WASHINGTON 2.0 SSW                        in_DC              CoCoRaHS volunteer 38.8766 -77.0224 2008-01-01 .. 2025-07-20            1636         6411
+US1DCDC0010             WASHINGTON 5.0 N                        in_DC              CoCoRaHS volunteer 38.9773 -77.0245 2008-01-01 .. 2018-12-31             259         4018
+US1DCDC0011           WASHINGTON 4.0 WNW                        in_DC              CoCoRaHS volunteer 38.9303 -77.0831 2008-01-01 .. 2010-12-31             120         1096
+US1DCDC0014            WASHINGTON 5.1 NW                        in_DC              CoCoRaHS volunteer 38.9581 -77.0817 2011-01-01 .. 2025-07-20            4259         5315
+US1DCDC0015           WASHINGTON 1.9 WNW                        in_DC              CoCoRaHS volunteer 38.9203 -77.0456 2011-01-01 .. 2020-12-31             605         3653
+US1DCDC0019              THE WHITE HOUSE                        in_DC              CoCoRaHS volunteer 38.8958 -77.0370 2015-01-01 .. 2018-12-31             971         1461
+US1DCDC0026            WASHINGTON 2.6 NE                        in_DC              CoCoRaHS volunteer 38.9327 -76.9835 2018-01-01 .. 2025-07-20            1619         2758
+US1DCDC0031           WASHINGTON 3.1 NNE                        in_DC              CoCoRaHS volunteer 38.9436 -76.9880 2020-01-01 .. 2025-07-20             764         2028
+US1DCDC0034            WASHINGTON 1.9 NW                        in_DC              CoCoRaHS volunteer 38.9258 -77.0408 2018-01-01 .. 2023-12-31             263         2191
+US1DCDC0040           WASHINGTON 2.2 ESE                        in_DC              CoCoRaHS volunteer 38.8965 -76.9769 2022-01-01 .. 2025-07-20            1054         1297
+US1DCDC0043           WASHINGTON 0.9 ESE                        in_DC              CoCoRaHS volunteer 38.9023 -77.0002 2024-01-01 .. 2025-07-20             110          567
+US1DCDC0044             WASHINGTON 2.4 N                        in_DC              CoCoRaHS volunteer 38.9391 -77.0101 2025-01-01 .. 2025-07-20              95          201
+US1DCDC0045           WASHINGTON 2.0 NNW                        in_DC              CoCoRaHS volunteer 38.9338 -77.0241 2025-01-01 .. 2025-07-20               0          201
+USC00182325              DALECARLIA RSVR                        in_DC NWS Cooperative Observer (COOP) 38.9386 -77.1133 1996-01-18 .. 2025-07-20           10065        10777
+USC00186350            NATL ARBORETUM DC                        in_DC NWS Cooperative Observer (COOP) 38.9133 -76.9700 1996-01-18 .. 2025-07-20           10136        10777
+USW00013743    WASHINGTON REAGAN NATL AP airport_reference_outside_DC    First-order / airport (WBAN) 38.8472 -77.0344 1996-01-18 .. 2025-07-20           10776        10777
+USW00093721 BALTIMORE-WASHINGTON INTL AP airport_reference_outside_DC    First-order / airport (WBAN) 39.1733 -76.6842 1996-01-18 .. 2025-07-20           10777        10777
+USW00093738    WASHINGTON DULLES INTL AP airport_reference_outside_DC    First-order / airport (WBAN) 38.9347 -77.4472 1996-01-18 .. 2025-07-20           10777        10777
+
+======================================================================
+2–3. get_raster() + plot_raster() for event E116
+======================================================================
+2022-08-04 (pad_before): grid (36, 33), units mm/day, available=True, max=43.599998474121094
+2022-08-05 (event): grid (36, 33), units mm/day, available=True, max=31.729999542236328
+2022-08-06 (pad_after): grid (36, 33), units mm/day, available=True, max=0.0
+
+======================================================================
+4–5. get_timeseries() + plot_timeseries() for event E116
+======================================================================
+
+US1DCDC0001 WASHINGTON 3.0 ENE [in_DC]
+      date  prcp_mm mflag qflag obs_time  missing
+2022-08-02      NaN   NaN   NaN      NaN     True
+2022-08-03      NaN   NaN   NaN      NaN     True
+2022-08-04      NaN   NaN   NaN      NaN     True
+2022-08-05      NaN   NaN   NaN      NaN     True
+2022-08-06      NaN   NaN   NaN      NaN     True
+2022-08-07      NaN   NaN   NaN      NaN     True
+2022-08-08      NaN   NaN   NaN      NaN     True
+
+US1DCDC0002 WASHINGTON 3.7 NNW [in_DC]
+      date  prcp_mm mflag qflag obs_time  missing
+2022-08-02      NaN   NaN   NaN      NaN     True
+2022-08-03      NaN   NaN   NaN      NaN     True
+2022-08-04      NaN   NaN   NaN      NaN     True
+2022-08-05      NaN   NaN   NaN      NaN     True
+2022-08-06      NaN   NaN   NaN      NaN     True
+2022-08-07      NaN   NaN   NaN      NaN     True
+2022-08-08      NaN   NaN   NaN      NaN     True
+
+US1DCDC0003 WASHINGTON 5.0 WNW [in_DC]
+      date  prcp_mm mflag qflag obs_time  missing
+2022-08-02      NaN   NaN   NaN      NaN     True
+2022-08-03      NaN   NaN   NaN      NaN     True
+2022-08-04      NaN   NaN   NaN      NaN     True
+2022-08-05      NaN   NaN   NaN      NaN     True
+2022-08-06      NaN   NaN   NaN      NaN     True
+2022-08-07      NaN   NaN   NaN      NaN     True
+2022-08-08      NaN   NaN   NaN      NaN     True
+
+US1DCDC0006 WASHINGTON 2.0 ESE [in_DC]
+      date  prcp_mm mflag qflag obs_time  missing
+2022-08-02      NaN   NaN   NaN      NaN     True
+2022-08-03      NaN   NaN   NaN      NaN     True
+2022-08-04      NaN   NaN   NaN      NaN     True
+2022-08-05      NaN   NaN   NaN      NaN     True
+2022-08-06      NaN   NaN   NaN      NaN     True
+2022-08-07      NaN   NaN   NaN      NaN     True
+2022-08-08      NaN   NaN   NaN      NaN     True
+
+US1DCDC0007 WASHINGTON 1.2 SE [in_DC]
+      date  prcp_mm mflag qflag obs_time  missing
+2022-08-02      NaN   NaN   NaN      NaN     True
+2022-08-03      NaN   NaN   NaN      NaN     True
+2022-08-04      NaN   NaN   NaN      NaN     True
+2022-08-05      NaN   NaN   NaN      NaN     True
+2022-08-06      NaN   NaN   NaN      NaN     True
+2022-08-07      NaN   NaN   NaN      NaN     True
+2022-08-08      NaN   NaN   NaN      NaN     True
+
+US1DCDC0008 WASHINGTON 2.0 ESE [in_DC]
+      date  prcp_mm mflag qflag obs_time  missing
+2022-08-02      NaN   NaN   NaN      NaN     True
+2022-08-03      NaN   NaN   NaN      NaN     True
+2022-08-04      NaN   NaN   NaN      NaN     True
+2022-08-05      NaN   NaN   NaN      NaN     True
+2022-08-06      NaN   NaN   NaN      NaN     True
+2022-08-07      NaN   NaN   NaN      NaN     True
+2022-08-08      NaN   NaN   NaN      NaN     True
+
+US1DCDC0009 WASHINGTON 2.0 SSW [in_DC]
+      date  prcp_mm mflag qflag obs_time  missing
+2022-08-02      NaN                          True
+2022-08-03      NaN                          True
+2022-08-04      NaN                          True
+2022-08-05      NaN                          True
+2022-08-06      NaN                          True
+2022-08-07      NaN                          True
+2022-08-08      NaN                          True
+
+US1DCDC0010 WASHINGTON 5.0 N [in_DC]
+      date  prcp_mm mflag qflag obs_time  missing
+2022-08-02      NaN   NaN   NaN      NaN     True
+2022-08-03      NaN   NaN   NaN      NaN     True
+2022-08-04      NaN   NaN   NaN      NaN     True
+2022-08-05      NaN   NaN   NaN      NaN     True
+2022-08-06      NaN   NaN   NaN      NaN     True
+2022-08-07      NaN   NaN   NaN      NaN     True
+2022-08-08      NaN   NaN   NaN      NaN     True
+
+US1DCDC0011 WASHINGTON 4.0 WNW [in_DC]
+      date  prcp_mm mflag qflag obs_time  missing
+2022-08-02      NaN   NaN   NaN      NaN     True
+2022-08-03      NaN   NaN   NaN      NaN     True
+2022-08-04      NaN   NaN   NaN      NaN     True
+2022-08-05      NaN   NaN   NaN      NaN     True
+2022-08-06      NaN   NaN   NaN      NaN     True
+2022-08-07      NaN   NaN   NaN      NaN     True
+2022-08-08      NaN   NaN   NaN      NaN     True
+
+US1DCDC0014 WASHINGTON 5.1 NW [in_DC]
+      date   prcp_mm mflag qflag obs_time  missing
+2022-08-02  9.700000                         False
+2022-08-03  0.000000     T                   False
+2022-08-04  0.000000                         False
+2022-08-05 35.099998                         False
+2022-08-06  2.300000                         False
+2022-08-07  0.000000     T                   False
+2022-08-08  0.000000                         False
+
+US1DCDC0015 WASHINGTON 1.9 WNW [in_DC]
+      date  prcp_mm mflag qflag obs_time  missing
+2022-08-02      NaN   NaN   NaN      NaN     True
+2022-08-03      NaN   NaN   NaN      NaN     True
+2022-08-04      NaN   NaN   NaN      NaN     True
+2022-08-05      NaN   NaN   NaN      NaN     True
+2022-08-06      NaN   NaN   NaN      NaN     True
+2022-08-07      NaN   NaN   NaN      NaN     True
+2022-08-08      NaN   NaN   NaN      NaN     True
+
+US1DCDC0019 THE WHITE HOUSE [in_DC]
+      date  prcp_mm mflag qflag obs_time  missing
+2022-08-02      NaN   NaN   NaN      NaN     True
+2022-08-03      NaN   NaN   NaN      NaN     True
+2022-08-04      NaN   NaN   NaN      NaN     True
+2022-08-05      NaN   NaN   NaN      NaN     True
+2022-08-06      NaN   NaN   NaN      NaN     True
+2022-08-07      NaN   NaN   NaN      NaN     True
+2022-08-08      NaN   NaN   NaN      NaN     True
+
+US1DCDC0026 WASHINGTON 2.6 NE [in_DC]
+      date   prcp_mm mflag qflag obs_time  missing
+2022-08-02  6.400000                         False
+2022-08-03  0.000000                         False
+2022-08-04  0.000000                         False
+2022-08-05 50.299999                         False
+2022-08-06 29.200001                         False
+2022-08-07  0.000000                         False
+2022-08-08  0.000000                         False
+
+US1DCDC0031 WASHINGTON 3.1 NNE [in_DC]
+      date   prcp_mm mflag qflag obs_time  missing
+2022-08-02  4.100000                         False
+2022-08-03  0.000000                         False
+2022-08-04  0.000000                         False
+2022-08-05 31.200001                         False
+2022-08-06 28.200001                         False
+2022-08-07  0.000000                         False
+2022-08-08  0.000000                         False
+
+US1DCDC0034 WASHINGTON 1.9 NW [in_DC]
+      date   prcp_mm mflag qflag obs_time  missing
+2022-08-02 13.700000                         False
+2022-08-03       NaN                          True
+2022-08-04       NaN                          True
+2022-08-05 44.700001                         False
+2022-08-06  7.100000                         False
+2022-08-07       NaN                          True
+2022-08-08  0.000000                         False
+
+US1DCDC0040 WASHINGTON 2.2 ESE [in_DC]
+      date  prcp_mm mflag qflag obs_time  missing
+2022-08-02      NaN                          True
+2022-08-03      NaN                          True
+2022-08-04      NaN                          True
+2022-08-05      NaN                          True
+2022-08-06      NaN                          True
+2022-08-07      NaN                          True
+2022-08-08      NaN                          True
+
+US1DCDC0043 WASHINGTON 0.9 ESE [in_DC]
+      date  prcp_mm mflag qflag obs_time  missing
+2022-08-02      NaN   NaN   NaN      NaN     True
+2022-08-03      NaN   NaN   NaN      NaN     True
+2022-08-04      NaN   NaN   NaN      NaN     True
+2022-08-05      NaN   NaN   NaN      NaN     True
+2022-08-06      NaN   NaN   NaN      NaN     True
+2022-08-07      NaN   NaN   NaN      NaN     True
+2022-08-08      NaN   NaN   NaN      NaN     True
+
+US1DCDC0044 WASHINGTON 2.4 N [in_DC]
+      date  prcp_mm mflag qflag obs_time  missing
+2022-08-02      NaN   NaN   NaN      NaN     True
+2022-08-03      NaN   NaN   NaN      NaN     True
+2022-08-04      NaN   NaN   NaN      NaN     True
+2022-08-05      NaN   NaN   NaN      NaN     True
+2022-08-06      NaN   NaN   NaN      NaN     True
+2022-08-07      NaN   NaN   NaN      NaN     True
+2022-08-08      NaN   NaN   NaN      NaN     True
+
+US1DCDC0045 WASHINGTON 2.0 NNW [in_DC]
+      date  prcp_mm mflag qflag obs_time  missing
+2022-08-02      NaN   NaN   NaN      NaN     True
+2022-08-03      NaN   NaN   NaN      NaN     True
+2022-08-04      NaN   NaN   NaN      NaN     True
+2022-08-05      NaN   NaN   NaN      NaN     True
+2022-08-06      NaN   NaN   NaN      NaN     True
+2022-08-07      NaN   NaN   NaN      NaN     True
+2022-08-08      NaN   NaN   NaN      NaN     True
+
+USC00182325 DALECARLIA RSVR [in_DC]
+      date  prcp_mm mflag qflag obs_time  missing
+2022-08-02     13.5                 0800    False
+2022-08-03      0.0                 0800    False
+2022-08-04      0.0                 0800    False
+2022-08-05     27.9                 0800    False
+2022-08-06     20.6                 0800    False
+2022-08-07      0.0                 0800    False
+2022-08-08      0.0                 0800    False
+
+USC00186350 NATL ARBORETUM DC [in_DC]
+      date   prcp_mm mflag qflag obs_time  missing
+2022-08-02 12.700000                 0800    False
+2022-08-03  0.000000                 0800    False
+2022-08-04  0.000000                 0800    False
+2022-08-05 29.200001                 0800    False
+2022-08-06 50.500000                 0800    False
+2022-08-07  0.000000                 0800    False
+2022-08-08  0.000000                 0800    False
+
+USW00013743 WASHINGTON REAGAN NATL AP [airport_reference_outside_DC]
+      date  prcp_mm mflag qflag obs_time  missing
+2022-08-02      0.0                 2400    False
+2022-08-03      0.0                 2400    False
+2022-08-04     23.6                 2400    False
+2022-08-05      0.0     T           2400    False
+2022-08-06      0.0                 2400    False
+2022-08-07      0.0                 2400    False
+2022-08-08      0.0     T           2400    False
+
+USW00093721 BALTIMORE-WASHINGTON INTL AP [airport_reference_outside_DC]
+      date  prcp_mm mflag qflag obs_time  missing
+2022-08-02      0.0                 2400    False
+2022-08-03      0.0                 2400    False
+2022-08-04     31.0                 2400    False
+2022-08-05      7.1                 2400    False
+2022-08-06      0.0                 2400    False
+2022-08-07      0.0                 2400    False
+2022-08-08      0.0                 2400    False
+
+USW00093738 WASHINGTON DULLES INTL AP [airport_reference_outside_DC]
+      date   prcp_mm mflag qflag obs_time  missing
+2022-08-02  0.800000                 2400    False
+2022-08-03  0.000000                 2400    False
+2022-08-04 18.299999                 2400    False
+2022-08-05  0.300000                 2400    False
+2022-08-06  0.000000                 2400    False
+2022-08-07  0.000000                 2400    False
+2022-08-08  0.000000                 2400    False
+
+======================================================================
+6. coverage_summary()
+======================================================================
+             source  event_days_requested  event_days_with_data  event_days_in_record_period  events_with_any_data  events_total  pct_event_days_covered  pct_within_record_period
+             daymet                   154                   154                          154                   125           125                   100.0                     100.0
+station:US1DCDC0001                   154                     4                            5                     2           125                     2.6                      80.0
+station:US1DCDC0002                   154                     4                            6                     2           125                     2.6                      66.7
+station:US1DCDC0003                   154                     0                            5                     0           125                     0.0                       0.0
+station:US1DCDC0006                   154                     0                            1                     0           125                     0.0                       0.0
+station:US1DCDC0007                   154                     1                            1                     1           125                     0.6                     100.0
+station:US1DCDC0008                   154                     0                            4                     0           125                     0.0                       0.0
+station:US1DCDC0009                   154                    29                          102                    25           125                    18.8                      28.4
+station:US1DCDC0010                   154                     4                           61                     3           125                     2.6                       6.6
+station:US1DCDC0011                   154                     0                           10                     0           125                     0.0                       0.0
+station:US1DCDC0014                   154                    70                           92                    60           125                    45.5                      76.1
+station:US1DCDC0015                   154                     9                           62                     9           125                     5.8                      14.5
+station:US1DCDC0019                   154                    21                           32                    18           125                    13.6                      65.6
+station:US1DCDC0026                   154                    27                           58                    23           125                    17.5                      46.6
+station:US1DCDC0031                   154                    27                           37                    23           125                    17.5                      73.0
+station:US1DCDC0034                   154                    12                           52                    11           125                     7.8                      23.1
+station:US1DCDC0040                   154                    10                           21                     8           125                     6.5                      47.6
+station:US1DCDC0043                   154                     2                            6                     2           125                     1.3                      33.3
+station:US1DCDC0044                   154                     3                            3                     3           125                     1.9                     100.0
+station:US1DCDC0045                   154                     0                            3                     0           125                     0.0                       0.0
+station:USC00182325                   154                   143                          154                   116           125                    92.9                      92.9
+station:USC00186350                   154                   152                          154                   124           125                    98.7                      98.7
+station:USW00013743                   154                   154                          154                   125           125                   100.0                     100.0
+station:USW00093721                   154                   154                          154                   125           125                   100.0                     100.0
+station:USW00093738                   154                   154                          154                   125           125                   100.0                     100.0
+
+Figures saved in C:\stat6289\outputs\figures
